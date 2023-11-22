@@ -95,3 +95,21 @@ h2 {
 #multiplication-operations .result {
   margin-left: 0.4rem;
 }
+
+/* Consulta de Mídia para Telas Pequenas */
+@media only screen and (max-width: 600px) {
+  #multiplication-form .form-control {
+    width: 100%;
+    max-width: none;
+    margin: 0 0 1rem 0;
+  }
+
+  #multiplication-form input[type="submit"] {
+    max-width: none;
+  }
+
+  #multiplication-operations .row {
+    width: 100%;
+    max-width: none;
+  }
+}
