@@ -1,0 +1,96 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+h2 {
+  display: flex;
+  color: #333;
+  justify-content: center;
+}
+
+#multiplication-form {
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+  margin-bottom: 15px;
+}
+
+label {
+  display: flex;
+  margin-bottom: 8px;
+  color: #555;
+  justify-content: center;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: rgb(
+    21,
+    72,
+    138
+  ); /* Substitua esses valores pelos desejados */
+  color: #fff;
+  cursor: pointer;
+}
+
+#multiplication-table {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#multiplication-title {
+  color: #333;
+}
+
+#multiplication-operations {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.operation {
+  flex: 1;
+  background-color: rgb(
+    21,
+    72,
+    138
+  ); /* Substitua esses valores pelos desejados */
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+.result {
+  flex: 1;
+  background-color: #333;
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+}
